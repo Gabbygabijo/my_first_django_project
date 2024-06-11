@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django template</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .content{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hello {% if name %} {{name}} {% else %} World {% endif %}</h1>
+        <div class='content'>
+            <p>This is an actual html document</p>
+            <P>Just to have fun🎉</P>
+        </div>
+    </div>
+</body>
+</html>
